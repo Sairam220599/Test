@@ -26,16 +26,41 @@ Subclass of dict, where data are added in ordered manner
 Wrapper for list to easier access.
 
 ### ii. Lists
-A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
+A list is a collection which is **ordered** and **changeable**. In Python lists are written with square brackets.
 
 It can store many data types such as integers,characters, strings, lists(nested list), dict etc and it is not necessary that all elements are of same type.
 
 **Syntax of initialization**
-my_list = []
-    
-   **or**
+
+my_list = [1,2,3]
+
+**or**
 
 my_list = list()
+
+**Some useful method used with Lists**
+
+**1) append():** 
+Adds an element at the end of the list
+
+**2) index():**
+Returns the index of the first element with the specified value
+
+**3) insert():**
+Adds an element at the specified position
+
+**4) pop():**
+Removes the element at the specified position
+
+**5) remove():**
+Removes the item with the specified value
+
+**6) reverse():**
+Reverses the order of the list
+
+**7) sort():**
+Sort the list.
+
 
 
 
