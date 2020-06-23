@@ -5,7 +5,7 @@ Containers are any object that holds an arbitrary number of other objects. Gener
 
 In the collections there are some container datatypes, which are alternatives to python’s general purpose built-in containers like dict, list, set etc.
 
-Some of the containers are:
+**Some of the containers are-**
 
 **1) namedtuple():**
 Used to create tuple subclass with the name field
@@ -30,7 +30,7 @@ A list is a collection which is **ordered** and **changeable**. In Python lists 
 
 It can store many data types such as integers,characters, strings, lists(nested list), dict etc and it is not necessary that all elements are of same type.
 
-**Syntax of initialization**
+**Syntax of initialization-**
 
 my_list = [1,2,3]
 
@@ -38,7 +38,7 @@ my_list = [1,2,3]
 
 my_list = list()
 
-**Some useful method used with Lists**
+**Some useful method used with Lists-**
 
 **1) append():** 
 Adds an element at the end of the list
