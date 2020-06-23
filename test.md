@@ -69,15 +69,12 @@ In Python dictionaries are written with curly brackets, and they have keys and v
 
 **Example of a Dictionary-**
 
-'''
+```
 my_dict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+  "Sport": "Football",
+  "tournment": "UEFA",
+  "Venue": "Madrid" 
 }
-'''
-
-
-
+```
 
 
