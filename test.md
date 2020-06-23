@@ -32,11 +32,11 @@ It can store many data types such as integers,characters, strings, lists(nested 
 
 **Syntax of initialization-**
 
-my_list = [1,2,3]
+```my_list = [1,2,3]```
 
 **or**
 
-my_list = list()
+```my_list = list()```
 
 **Some useful method used with Lists-**
 
@@ -76,5 +76,39 @@ my_dict = {
   "Venue": "Madrid" 
 }
 ```
+
+We can access elements/values using the keys of the dictionary instead of index.
+
+You can change the value of a specific item by referring to its key name-
+
+``` my_dict["Venue"] = "Berlin" ```
+
+
+### iv.Sets ###
+A set is a collection which is unordered and unindexed. 
+
+In Python sets are written with curly brackets.
+
+**Example of a Set-**
+
+``` my_set = {Cricket, Football, Tennis, Hockey} ```
+
+The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.
+
+**Some useful method used with Sets-**
+
+* difference
+	Returns a set containing the difference between two or more sets
+
+
+
+
+
+
+
+
+
+
+
 
 
