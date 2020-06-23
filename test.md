@@ -133,8 +133,9 @@ Returns a set with the symmetric differences of two sets
 
 * In Python a function is defined using the def keyword:
 
-``` def my_function():
-        print("Hello World!")
+``` 
+def my_function():
+    print("Hello World!")
 ```
 
 * To call we just need to write the function name with open and close parenthesis.
@@ -143,8 +144,9 @@ Returns a set with the symmetric differences of two sets
 
 * We can pass arugments to a function and return a value from the function.
 
-``` def add(a,b)
-        return a+b
+``` 
+def add(a,b):
+    return a+b
 ```
 
 * Now to call the function we need to pass arguement to it and assign it to a variable.
