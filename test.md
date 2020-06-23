@@ -1,9 +1,9 @@
 # Basic Python
 ## 1. Data Types:-
 ### i. Containers
-Containers are any object that holds an arbitrary number of other objects. Generally, containers provide a way to access the contained objects and to iterate over them.
+* Containers are any object that holds an arbitrary number of other objects. Generally, containers provide a way to access the contained objects and to iterate over them.
 
-In the collections there are some container datatypes, which are alternatives to python’s general purpose built-in containers like dict, list, set etc.
+* In the collections there are some container datatypes, which are alternatives to python’s general purpose built-in containers like dict, list, set etc.
 
 **Some of the containers are-**
 
@@ -26,9 +26,9 @@ Subclass of dict, where data are added in ordered manner
 Wrapper for list to easier access.
 
 ### ii. Lists
-A list is a collection which is **ordered** and **changeable**. In Python lists are written with square brackets.
+* A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
 
-It can store many data types such as integers,characters, strings, lists(nested list), dict etc and it is not necessary that all elements are of same type.
+* It can store many data types such as integers,characters, strings, lists(nested list), dict etc and it is not necessary that all elements are of same type.
 
 **Syntax of initialization-**
 
@@ -63,9 +63,9 @@ Sort the list.
 
 ### iii.Dictionaries ###
 
-A dictionary is a collection which is unordered, changeable and indexed.
+* A dictionary is a collection which is unordered, changeable and indexed.
 
-In Python dictionaries are written with curly brackets, and they have keys and values.
+* In Python dictionaries are written with curly brackets, and they have keys and values.
 
 **Example of a Dictionary-**
 
@@ -77,9 +77,9 @@ my_dict = {
 }
 ```
 
-We can access elements/values using the keys of the dictionary instead of index.
+* We can access elements/values using the keys of the dictionary instead of index.
 
-You can change the value of a specific item by referring to its key name-
+* You can change the value of a specific item by referring to its key name-
 
 ``` my_dict["Venue"] = "Berlin" ```
 
@@ -97,8 +97,8 @@ The major advantage of using a set, as opposed to a list, is that it has a highl
 
 **Some useful method used with Sets-**
 
-* difference
-	Returns a set containing the difference between two or more sets
+- difference
+Returns a set containing the difference between two or more sets
 
 
 
