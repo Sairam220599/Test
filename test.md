@@ -30,9 +30,11 @@ A list is a collection which is ordered and changeable. In Python lists are writ
 
 It can store many data types such as integers,characters, strings, lists(nested list), dict etc and it is not necessary that all elements are of same type.
 
-**Syntax: initialization**
+**Syntax of initialization**
 my_list = []
-    **or**
+    
+   **or**
+
 my_list = list()
 
 
