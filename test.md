@@ -61,7 +61,7 @@ Reverses the order of the list
 **7) sort():**
 Sort the list.
 
-### iii.Dictionaries ###
+### iii. Dictionaries ###
 
 * A dictionary is a collection which is unordered, changeable and indexed.
 
@@ -84,21 +84,78 @@ my_dict = {
 ``` my_dict["Venue"] = "Berlin" ```
 
 
-### iv.Sets ###
-A set is a collection which is unordered and unindexed. 
+### iv. Sets ###
+* A set is a collection which is unordered and unindexed. 
 
-In Python sets are written with curly brackets.
+* In Python sets are written with curly brackets.
 
 **Example of a Set-**
 
 ``` my_set = {Cricket, Football, Tennis, Hockey} ```
 
-The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.
+* The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.
 
 **Some useful method used with Sets-**
 
-- difference
-Returns a set containing the difference between two or more sets
+**1) difference:():**
+Returns a set containing the difference between two or more sets.
+
+**2) intersection():**
+Returns a set, that is the intersection of two other sets.
+
+**3) union():**
+Return a set containing the union of sets
+
+**4) issubset():**
+Returns whether another set contains this set or not
+
+**5) symmetric_difference():**
+Returns a set with the symmetric differences of two sets
+
+### v. Tuples ###
+
+* A tuple is a collection which is ordered and unchangeable.
+
+* In Python tuples are written with round brackets.
+
+* The sequence of values stored in a tuple can be of any type, and they are indexed by integers.
+
+**Example of a Tuple-**
+
+``` my_tuple = ('python', 'C++', 'Java') ```
+
+
+## 2. Functions ##
+
+* A function is a set of statements that take inputs, do some specific computation and produces output.
+
+* The idea behind is to not to repeat the same thing which is also called **Don't Repeat Yourself**(DRY) Principle.
+
+* In Python a function is defined using the def keyword:
+
+``` def my_function():
+        print("Hello World!")
+```
+
+* To call we just need to write the function name with open and close parenthesis.
+
+``` my_function() ```
+
+* We can pass arugments to a function and return a value from the function.
+
+``` def add(a,b)
+        return a+b
+```
+
+* Now to call the function we need to pass arguement to it and assign it to a variable.
+
+``` sum = add(5,10) ```
+
+
+## 3. Claases ##
+
+  
+ 
 
 
 
