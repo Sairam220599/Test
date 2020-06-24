@@ -237,6 +237,19 @@ print a
 
 * Three types of indexing methods are available − field access, basic slicing and advanced indexing.
 
+*  A Python slice object is constructed by giving start, stop, and step parameters to the built-in slice function. This slice object is passed to the array to extract a part of array.
+
+**Example**
+
+```
+import numpy as np 
+a = np.arange(10) 
+s = slice(2,7,2) 
+print a[s]
+```
+
+
+
 
 
 
