@@ -491,7 +491,19 @@ img = mpimg.imread('mtplogo.png')
 
 * To launch a Jupyter notebook, open your terminal and navigate to the directory where you would like to save your notebook. Then type the command ``` jupyter notebook ``` and the program will instantiate a local server at ```localhost:8888``` (or another specified port).
 
-* 
+* A browser window should immediately pop up with the Jupyter Notebook interface, otherwise, you can use the address it gives you.
+
+* To stop the server and shutdown the kernel from the terminal, hit ```control-C``` twice.
+
+* Now you’re in the Jupyter Notebook interface, and you can see all of the files in your current directory. All Jupyter Notebooks are identifiable by the notebook icon next to their name.
+
+* If you already have a Jupyter Notebook in your current directory that you want to view, find it in your files list and click it to open.
+
+To create a new notebook, go to New and select Notebook - Python 3. If you have other Jupyter Notebooks on your system that you want to use, you can click Upload and navigate to that particular file.
+
+* Notebooks currently running will have a green icon, while non-running ones will be grey. To find all currently running notebooks, click on the Running tab to see a list.
+
+### ii. Typical Workflow ###
 
 
 
