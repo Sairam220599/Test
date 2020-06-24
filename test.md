@@ -505,6 +505,29 @@ To create a new notebook, go to New and select Notebook - Python 3. If you have 
 
 ### ii. Typical Workflow ###
 
+* When you open a new Jupyter notebook, you’ll notice that it contains a cell. Cells are how notebooks are structured and are the areas where you write your code.
+
+*  To run a piece of code, click on the cell to select it, then press ```SHIFT+ENTER``` or press the play button in the toolbar above.
+
+* Additionally, the Cell dropdown menu has several options to run cells, including running one cell at a time or to run all cells at once.
+
+* After your run a cell, the output of the cell’s code will appear in the space below. To stop running a piece of code, press the stop button.
+
+* To create new cells, use the plus (+) button in the toolbar or hit ```SHIFT+ENTER``` on the last cell in the Notebook. To cut, copy, delete or just generally edit cells - select the cell you want to modify and go to the Edit button in the navigation bar to see your options.
+
+* In addition to running lines of code, you can also include text-only cells that use Markdown to format and organize your notebooks(using #).
+
+* When you create a new cell, it will default to being a Code cell. To create a cell that uses markdown, click on the Cell menu from the navigation bar, scroll down to Cell Type and choose Markdown.
+
+* Occasionally, you might need to restart the kernel. Head to the Kernel dropdown and hit Restart. To shut down a kernel, you can click Shutdown, which will have a dialogue process asking if that’s what you would like to do.
+
+* To force an immediate shutdown, go to the File dropdown and click Close and Halt and the browser window will close itself. Restarting and shutting down kernels will affect your variables, so be careful.
+
+* In the Help dropdown, you’ll find useful information such as keyboard shortcuts as well as links to different documentation for modules such as Numpy, SciPy, and Matplotlib.
+
+
+
+
 
 
 
