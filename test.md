@@ -316,9 +316,70 @@ dt = np.dtype(np.int32)
 print dt
 ```
   
+### iv. Array Math ###
+
+*  NumPy contains a large number of various mathematical operations.
+
+* NumPy provides standard trigonometric functions, functions for arithmetic operations, handling complex numbers, etc.
+
+**1. Trignometric Functions**
+
+* NumPy has standard trigonometric functions which return trigonometric ratios for a given angle in radians.
+
+```
+import numpy as np 
+a = np.array([0,30,45,60,90]) 
+
+# Convert to radians by multiplying with pi/180 
+print (np.sin(a*np.pi/180))   
+
+print (np.cos(a*np.pi/180)) 
+
+print (np.tan(a*np.pi/180))
+```
+
+**2. Arithmetic Functions**
+
+* Input arrays for performing arithmetic operations such as add(), subtract(), multiply(), and divide() must be either of the same shape or should conform to array broadcasting rules.
+
+**Example**
+
+```
+import numpy as np 
+a = np.arange(9, dtype = np.float_).reshape(3,3) 
+b = np.array([10,10,10]) 
+print (np.add(a,b))       # addition of two arrays
+
+print (np.subtract(a,b))  # subtraction of two arrays
+
+print (np.multiply(a,b))  # multiplication of two arrays
+
+print (np.divide(a,b))    # Division of two arrays
+```
+
+**3. Statistical Functions**
+
+* NumPy has quite a few useful statistical functions for finding minimum, maximum, percentile standard deviation and variance, etc. from the given elements in the array.
+
+**Examples of some statistical functions**
+
+```
+import numpy as np 
+a = np.array([[3,7,5],[8,4,3],[2,4,9]]) 
+
+print (np.amax(a))      # returns smallest value in array
+print (np.amin(a))      # returns largest value in array
+
+print(np.mean(a))       # mean of the array
+print(np.median(a))     # median of the array
+print(np.std(a))        # standard deviation of the array
+```
+
+### v. Broadcasting ###
 
 
-https://files.realpython.com/media/03_hello_jupyter.96024ca79ae6.png
+
+
 
  
 
