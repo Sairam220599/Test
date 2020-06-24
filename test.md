@@ -231,7 +231,13 @@ a.shape = (3,2)
 print a 
 ```
 
-### ii. Data
+### ii. Array Indexing ###
+
+*  Items in ndarray object follows zero-based index.
+
+* Three types of indexing methods are available − field access, basic slicing and advanced indexing.
+
+
 
 
  
