@@ -426,7 +426,60 @@ plt.title('sine wave')
 ```
 
 * The Plot viewer window is invoked by the show() function −
+
 ``` plt.show() ```
+
+### ii. Subplots ###
+
+* Matplotlib’spyplot API has a convenience function called subplots() which acts as a utility wrapper and helps in creating common layouts of subplots, including the enclosing figure object, in a single call.
+
+``` plt.subplots(nrows, ncols) ```
+
+* The two integer arguments to this function specify the number of rows and columns of the subplot grid.
+
+* The function returns a figure object and a tuple containing axes objects equal to nrows*ncols. Each axes object is accessible by its index.
+
+**Example for creating a 2x2 subplots**
+
+```
+import matplotlib.pyplot as plt
+fig,a =  plt.subplots(2,2)
+import numpy as np
+x = np.arange(1,5)
+a[0][0].plot(x,x*x)
+a[0][0].set_title('square')
+a[0][1].plot(x,np.sqrt(x))
+a[0][1].set_title('square root')
+a[1][0].plot(x,np.exp(x))
+a[1][0].set_title('exp')
+a[1][1].plot(x,np.log10(x))
+a[1][1].set_title('log')
+plt.show()
+```
+
+### iii. Images ###
+
+* The image module in Matplotlib package provides functionalities required for loading, rescaling and displaying image.
+
+* The imread() function is used to read image data in an ndarray object of float32 dtype.
+
+```
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+import numpy as np
+img = mpimg.imread('mtplogo.png')
+```
+
+* Any array containing image data can be saved to a disk file by executing the imsave() function. Here a vertically flipped version of the original png file is saved by giving origin parameter as lower.
+
+``` plt.imsave("logo.png", img, cmap = 'gray', origin = 'lower') ```
+
+* To draw the image on Matplotlib viewer, execute the imshow() function.
+
+``` imgplot = plt.imshow(img) ```
+
+
+## 5. Jupyter Notebook ##
 
 
 
