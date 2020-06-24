@@ -192,9 +192,29 @@ print(p1.age)
 
 ## 4. Numpy ##
 
+* NumPy is a Python package. It stands for 'Numerical Python'. It is a library consisting of multidimensional array objects and a collection of routines for processing of array.
 
+* The conventional way of importing the NumPy package is as follows-
 
-  
+``` import numpy as np ```
+
+### i. Arrays ###
+
+* The most important object defined in NumPy is an N-dimensional array type called ndarray.
+
+* It describes the collection of items of the same type. Items in the collection can be accessed using a zero-based index.
+
+**Example**
+
+```
+Live Demo
+import numpy as np 
+a = np.array([1,2,3]) 
+print a
+```
+
+* The shape attribute returns a 
+
  
 
 
