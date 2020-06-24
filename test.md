@@ -361,7 +361,7 @@ print (np.divide(a,b))    # Division of two arrays
 
 * NumPy has quite a few useful statistical functions for finding minimum, maximum, percentile standard deviation and variance, etc. from the given elements in the array.
 
-**Examples of some statistical functions**
+**Examples of some statistical functions-**
 
 ```
 import numpy as np 
@@ -480,6 +480,12 @@ img = mpimg.imread('mtplogo.png')
 
 
 ## 5. Jupyter Notebook ##
+
+* Jupyter Notebooks are a powerful way to write and iterate on your Python code for data analysis. Rather than writing and re-writing an entire program, you can write lines of code and run them one at a time.
+
+* Then, if you need to make a change, you can go back and make your edit and rerun the program again, all in the same window.
+
+* 
 
 
 
