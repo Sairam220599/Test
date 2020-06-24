@@ -1,5 +1,5 @@
 # Basic Python
-## 1. Data Types:-
+## 1. Data Types
 ### i. Containers
 * Containers are any object that holds an arbitrary number of other objects. Generally, containers provide a way to access the contained objects and to iterate over them.
 
@@ -376,6 +376,60 @@ print(np.std(a))        # standard deviation of the array
 ```
 
 ### v. Broadcasting ###
+
+* The term broadcasting refers to the ability of NumPy to treat arrays of different shapes during arithmetic operations.
+
+* Arithmetic operations on arrays are usually done on corresponding elements. If two arrays are of exactly the same shape, then these operations are smoothly performed.
+
+**Example**
+
+```
+import numpy as np 
+
+a = np.array([1,2,3,4]) 
+b = np.array([10,20,30,40]) 
+c = a * b             # broadcasting for element wise multiplication.
+print (c)    
+```
+
+## 5. Matplotlib ##
+
+* Matplotlib is one of the most popular Python packages used for data visualization.
+
+* Matplotlib is written in Python and makes use of NumPy, the numerical mathematics extension of Python.
+
+* It is a cross-platform library for making 2D plots from data in arrays.
+
+### i. Plotting ###
+
+* To begin with, the Pyplot module from Matplotlib package is imported, with an alias plt as a matter of convention.
+
+``` import matplotlib.pyplot as plt ```
+
+* Now we can create arrays to be plotted on the x axis and y axis.
+
+```
+x = np.arange(0, math.pi*2, 0.05)
+y = np.sin(x)
+```
+
+* The values from two arrays are plotted using the plot() function.
+
+``` plt.plot(x,y) ```
+
+* You can set the plot title, and labels for x and y axes.
+
+``` 
+plt.xlabel("angle")
+plt.ylabel("sine")
+plt.title('sine wave')
+```
+
+* The Plot viewer window is invoked by the show() function −
+``` plt.show() ```
+
+
+
 
 
 
