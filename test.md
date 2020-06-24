@@ -154,7 +154,7 @@ def add(a,b):
 ``` sum = add(5,10) ```
 
 
-## 3. Claases ##
+## 3. Classes ##
 
 * Almost everything in Python is an object, with its properties and methods.
 
@@ -245,13 +245,80 @@ print a
 import numpy as np 
 a = np.arange(10) 
 s = slice(2,7,2) 
-print a[s]
+print (a[s])
 ```
 
+* If only one parameter is put, a single item corresponding to the index will be returned.
+
+* If a : is inserted in front of it, all items from that index onwards will be extracted.
+
+* If two parameters (with : between them) is used, items between the two indexes (not including the stop index) with default step one are sliced.
+
+```
+import numpy as np 
+a = np.arange(10) 
+b = a[5] 
+print (b)          # slice single item 
+print(a[2:])       # slice items starting from index 
+print(a[2:5])      # slice items between indexes
+```
+
+**Boolean Array Indexing**
+
+* This type of advanced indexing is used when the resultant object is meant to be the result of Boolean operations, such as comparison operators.
+
+**Example**
+
+```
+import numpy as np 
+x = np.array([[ 0,  1,  2],[ 3,  4,  5],[ 6,  7,  8],[ 9, 10, 11]]) 
+print 'The items greater than 5 are:' 
+print x[x > 5]      # Now we will print the items greater than 5 
+```
+
+### iii. Data Types ###
+
+* NumPy supports a much greater variety of numerical types than Python does.
+
+* Some of the data types defined in NumPy are bool_ , int_ , float_ , complex , and many more.
+
+**Data Type Objects(dtype)**
+
+* A data type object describes interpretation of fixed block of memory corresponding to an array, depending on the following aspects −
+  
+  * Type of data (integer, float or Python object)
+  
+  * Size of data
+  
+  * Byte order (little-endian or big-endian)
+  
+  * In case of structured type, the names of fields, data type of each field and part of the memory block taken by each field
+  
+  * If data type is a subarray, its shape and data type
+  
+* A dtype object is constructed using the following syntax −
+
+``` numpy.dtype(object, align, copy) ```
+
+* The parameters are −
+
+  * Object − To be converted to data type object
+
+  * Align − If true, adds padding to the field to make it similar to C-struct
+
+  * Copy − Makes a new copy of dtype object. If false, the result is reference to builtin data type object
+
+**Example**
+
+```
+import numpy as np 
+dt = np.dtype(np.int32) 
+print dt
+```
+  
 
 
-
-
+https://files.realpython.com/media/03_hello_jupyter.96024ca79ae6.png
 
  
 
