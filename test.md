@@ -210,10 +210,29 @@ print(p1.age)
 Live Demo
 import numpy as np 
 a = np.array([1,2,3]) 
-print a
+print (a)
 ```
 
-* The shape attribute returns a 
+* The shape attribute returns a tuple consisting of array dimensions. It can also be used to resize the array.
+
+```
+import numpy as np 
+a = np.array([[1,2,3],[4,5,6]]) 
+print (a.shape)
+```
+
+* Resizing-
+
+```
+import numpy as np 
+
+a = np.array([[1,2,3],[4,5,6]]) 
+a.shape = (3,2) 
+print a 
+```
+
+### ii. Data
+
 
  
 
