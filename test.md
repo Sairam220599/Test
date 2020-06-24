@@ -485,6 +485,12 @@ img = mpimg.imread('mtplogo.png')
 
 * Then, if you need to make a change, you can go back and make your edit and rerun the program again, all in the same window.
 
+* It also allows Jupyter Notebook to support multiple languages. Jupyter Notebooks extend IPython through additional features, like storing your code and output and allowing you to keep markdown notes.
+
+### i. Creating Notebooks ###
+
+* To launch a Jupyter notebook, open your terminal and navigate to the directory where you would like to save your notebook. Then type the command ``` jupyter notebook ``` and the program will instantiate a local server at ```localhost:8888``` (or another specified port).
+
 * 
 
 
